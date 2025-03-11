@@ -84,22 +84,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm"
           >
-            {/* Header */}
-            <div className="p-8 border-b border-white/10">
-              <div className="flex items-center gap-4 mb-6">
-                <FiShield className="w-12 h-12 text-white" />
-                <div>
-                  <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-                    Server-Regelwerk
-                  </h1>
-                  <p className="text-gray-400 mt-2">Stand: Juli 2024 · Version 1.0</p>
-                </div>
-              </div>
-              <p className="text-gray-300">
-                Mit der Nutzung des Servers erklärst du dich mit den folgenden Regeln einverstanden. 
-                Unwissenheit schützt nicht vor Sanktionen. Bei Fragen stehen wir im Discord zur Verfügung.
-              </p>
-            </div>
+
 
             <div className="p-8 space-y-12">
               {/* Allgemeine Regeln */}
