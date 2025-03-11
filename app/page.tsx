@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans antialiased relative">
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-black/30 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/30 pointer-events-none" />
 
       <header className="fixed w-full top-0 z-50 bg-black/90 backdrop-blur-sm border-b border-white/10">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
