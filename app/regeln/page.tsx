@@ -615,6 +615,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§6.6 Rückerstattungen</h3>
                     <p className="text-gray-300">
                       Rückerstattungen sind nur mit einem Beweis in Form eines Clips möglich. Aus diesem Clip mit Ton muss der Grund der Rückerstattung ersichtlich sein. Anträge auf Rückerstattungen sind nur 72 Stunden nach einem Verlust möglich.
+                      <img src="/images/secret.png" className=""/>
                     </p>
                   </div>
 
