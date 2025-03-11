@@ -77,35 +77,6 @@ export default function Home() {
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/30 pointer-events-none" />
 
-      <header className="fixed w-full top-0 z-50 bg-black/90 backdrop-blur-sm border-b border-white/10">
-        <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Link href="/" className="flex items-center space-x-2">
-            <Image 
-              src="/images/logo.png"
-              alt="TimelessCity Logo"
-              width={40}
-              height={40}
-              className="animate-pulse"
-            />
-            <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                TimelessCity
-              </span>
-              <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-                BETA
-              </span>
-            </div>
-          </Link>
-          
-          <div className="flex items-center gap-4">
-            <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
-              <FiArrowRight className="w-5 h-5 transform rotate-180" />
-              <span className="hidden sm:inline">Zurück</span>
-            </Link>
-          </div>
-        </nav>
-      </header>
-
       <main className="pt-32 pb-24">
         <section className="container mx-auto px-4 py-12">
           <motion.div 
@@ -1095,41 +1066,41 @@ export default function Home() {
               {/* Fraktionsregelwerk */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
-                  <span className="bg-white/10 px-3 py-1 rounded-lg">17</span>
+                  <span className="bg-white/10 px-3 py-1 rounded-lg"></span>
                   Fraktionsregelwerk
                 </h2>
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§17.1 Fraktionshopping</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.1 Fraktionshopping</h3>
                     <p className="text-gray-300">
                       Um Fraktionshopping zu vermeiden, gelten folgende Sperrzeiten für den Austritt aus einer Fraktion: (Neutrale oder Good-Fraks) 2 Tage / illegale Fraktionen &gt; 3 Tage.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§17.2 Mitgliedschaft</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.2 Mitgliedschaft</h3>
                     <p className="text-gray-300">
                       Es ist nicht erlaubt, gleichzeitig Mitglied einer Illegalen- und einer Legalen Fraktion zu sein. Legale Fraktionen sind das LSPD, sowie das Government.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§17.3 Fraktionsverwarnungen</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.3 Fraktionsverwarnungen</h3>
                     <p className="text-gray-300">
                       Fraktionsverwarnungen können ausgesprochen werden, wenn mehrere Mitglieder einer Fraktion an Regelverstößen beteiligt sind. Sollte eine Fraktion ihre dritte Verwarnung erhalten, so wird diese Fraktion aufgelöst. In besonders schweren Fällen kann die Fraktion sofort aufgelöst werden. Die Dauer einer Fraktionsverwarnung liegt im Ermessen der Fraktionsverwaltung und wird im Fraktions Discord angekündigt.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§17.4 Konflikte</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.4 Konflikte</h3>
                     <p className="text-gray-300">
                       Die Fraktionsverwaltung ist nicht primär dafür zuständig, eure Konflikte zu lösen. Versucht dies zuerst untereinander. Solltet ihr eine Beschwerde über eine andere Fraktion einreichen wollen, so muss dies über ein Mitglied der jeweiligen Leitung über ein Ticket geschehen. Beschwerden müssen mit Videobeweisen (Bild und Ton) begründet werden.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§17.5 Fraktionsgründung</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.5 Fraktionsgründung</h3>
                     <p className="text-gray-300">
                       Es ist verboten, eine Fraktion zu gründen, die sich an real existierenden Gangs, Mafia-Organisationen oder an Gruppierungen aus Serien und Filmen orientiert. Dies umfasst sowohl die direkte Übernahme von Namen (z. B. Bloods, Crips, Sinaloa-Kartell) als auch die eindeutige Nachbildung solcher Strukturen.
                     </p>
@@ -1140,34 +1111,34 @@ export default function Home() {
               {/* Legale Fraktionen */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
-                  <span className="bg-white/10 px-3 py-1 rounded-lg">18</span>
+                  <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
                   Legale Fraktionen
                 </h2>
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§18.1 Korruption</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.1 Korruption</h3>
                     <p className="text-gray-300">
                       Leichte Korruption von Staatsfraktionen zur Informationsbeschaffung ist erlaubt. Der Umgang mit solchen Fällen ist der jeweiligen Leitung überlassen. Schwere Korruption, wie die Herausgabe von Waffen oder Medikits, ist verboten.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§18.2 Razzien</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.2 Razzien</h3>
                     <p className="text-gray-300">
                       Razzien auf Fraktionsanwesen müssen bei den Fraktionsmanagern beantragt werden. Hierfür ist ein Antrag erforderlich, der ausreichend Beweise für eine Razzia enthält. Die Entscheidung für die Freigabe des Antrags liegt bei der Fraktionsverwaltung.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§18.3 Verfolgungsjagd</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.3 Verfolgungsjagd</h3>
                     <p className="text-gray-300">
                       Sollten Straftäter während einer aktiven Verfolgungsjagd auf ihr Fraktionsanwesen flüchten, dürfen die Beamten dies für maximal 15 Minuten betreten, um eine Festnahme durchzuführen. Ist kein Erfolg in Aussicht, so müssen sie das Anwesen wieder verlassen und ggf. einen Razzia-Antrag stellen.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§18.4 Medics</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.4 Medics</h3>
                     <p className="text-gray-300">
                       Medics dürfen erst behandeln, wenn kein aktives Schussgefecht mehr besteht, oder sie sicher arbeiten können. Sollte erneut ein Schussgefecht ausbrechen, so muss er sich ggf. mit dem Patienten zurückziehen und auf einen sicheren Zeitpunkt warten.
                     </p>
@@ -1178,83 +1149,83 @@ export default function Home() {
               {/* Illegale Fraktionen */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
-                  <span className="bg-white/10 px-3 py-1 rounded-lg">19</span>
+                  <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
                   Illegale Fraktionen
                 </h2>
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.1 Mitgliederzahl</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.1 Mitgliederzahl</h3>
                     <p className="text-gray-300">
                       Eine illegale Fraktion darf aus maximal 10 Mitgliedern bestehen. Dies gilt auch für den Fraktionsdiscord.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.2 Fraktionsfahrzeuge</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.2 Fraktionsfahrzeuge</h3>
                     <p className="text-gray-300">
                       Eine Fraktion muss immer ihre Fraktionsfahrzeuge nutzen, wenn sie als Einheit zusammen agieren.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.3 Lager</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.3 Lager</h3>
                     <p className="text-gray-300">
                       Der Bestand einer Fraktion muss in ihren Lagern eingelagert werden. Weiterhin ist es nicht erlaubt, Inhalte aus diesem Lager in privaten Kofferräumen oder anderen Orten zu lagern, um sie im Falle einer Razzia sicher verwahrt zu haben.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.4 Konflikte</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.4 Konflikte</h3>
                     <p className="text-gray-300">
                       Konflikte oder Probleme zwischen den Fraktionen sollten vorrangig ohne Waffengewalt geklärt werden. Sollte dies nicht der Fall sein, so muss ein triftiger Grund für einen richtigen Konflikt vorliegen. (kleine Beleidigungen oder Unfälle sind keine ausreichenden Gründe)
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.5 Hood</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.5 Hood</h3>
                     <p className="text-gray-300">
                       Fraktionen müssen in ihrer Hood keine Schussankündigung aussprechen. Sie haben freie Schuss Möglichkeit, jedoch sollte dies immer noch die letzte Option sein. Für die beschossene Partei zählt dies nicht als Rechtfertigung, da sie selbst schuld sind, wenn sie eine fremde Hood betreten und daraufhin beschossen werden sollten.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.6 Stürmung</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.6 Stürmung</h3>
                     <p className="text-gray-300">
                       Eine Stürmung der anderen Fraktion ist nur einmal am Tag und nur mit triftigem Grund möglich. (Das Hochnehmen eines Mitgliedes ist kein ausreichender Grund) Beide Parteien müssen vorher miteinander gesprochen haben und versucht haben, eine andere Lösung zu finden.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.7 Razzia</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.7 Razzia</h3>
                     <p className="text-gray-300">
                       Während einer Razzia oder einer Stürmung ist das Ausnutzen und Verbarrikadieren im Anwesen verboten, um faire Chancen zu schaffen.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.8 Kriege</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.8 Kriege</h3>
                     <p className="text-gray-300">
                       Kriege gegen andere Fraktionen müssen bei der Fraktionsverwaltung beantragt werden. Hierfür ist ein Kriegsvertrag notwendig, welcher alle wichtigen Infos enthält. (Zeiten, Kampfzonen, etc…) Kriege gegen andere Fraktionen dürfen maximal (7) Tage dauern.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.9 Bündnisse</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.9 Bündnisse</h3>
                     <p className="text-gray-300">
                       Bündnisse zwischen zwei Fraktionen müssen im Support beantragt werden. Hierfür müssen beide Parteien einen Bündnisvertrag verfassen und einen legitimen RP-Hintergrund vorweisen können. Wenn das Bündnis angenommen wird, dürfen beide Fraktionen zusammen agieren, solange sie einheitlich und erkennbar sind. Bündnisse mit dem Ziel, sich gegen Staatsfraktionen zu stellen, sind jedoch verboten.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.10 Kleidung</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.10 Kleidung</h3>
                     <p className="text-gray-300">
                       Die Kleidung einer Fraktion muss im Fraktionskonzept angegeben und beachtet werden. Das Agieren als Fraktion ohne Fraktionskleidung ist verboten. Als Merkmale sind 2 Kleidungsstücke der gleichen Farbe notwendig.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§19.11 Blood-in/Blood-out</h3>
+                    <h3 className="text-xl font-semibold mb-3">§3.11 Blood-in/Blood-out</h3>
                     <p className="text-gray-300">
                       Fraktionen, welche beim Beitritt einer Fraktion einen Blood-in erteilen, dürfen ebenso ein Blood-out aussprechen und vollziehen. Dies muss der betroffenen Person vorher mitgeteilt werden und ist erst mit dem Ausbluten des Spielers wirksam. Nach einem Blood-out vergisst die Person alles, was während ihrer Zugehörigkeit passiert ist.
                     </p>
