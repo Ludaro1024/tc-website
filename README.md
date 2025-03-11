@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TC-Website
 
-## Getting Started
+Welcome to the TC-Website repository! This is a website I am developing for a FiveM server called TimelessCity. Built using Next.js, the site serves as a marketing platform to promote the server.
 
-First, run the development server:
+TimelessCity is a non-profit organization, and this website is designed to reflect the community-driven spirit of the server.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website currently consists of two main pages:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Home - Located at /app/page.tsx
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Rules - Located at /app/rules/page.tsx
 
-## Learn More
+# Usage
 
-To learn more about Next.js, take a look at the following resources:
+You are welcome to use this project as a template for your own FiveM server. However, please ensure that you do not copy the content 1-to-1 and respect the original work. The project is licensed under the Mozilla Public License, so feel free to adapt and modify it for your needs while adhering to the license terms.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Please be respectful and civil when using this project. If you find it helpful, consider giving credit to the original creators.
+License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the Mozilla Public License 2.0. For more details, refer to the LICENSE file.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for checking out the TC-Website! If you have any questions or feedback, feel free to reach out. Happy coding! 🚀
