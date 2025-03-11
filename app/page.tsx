@@ -41,7 +41,7 @@ export default function Home() {
           </Link>
           
           <div className="flex items-center gap-4">
-            <Link href="/rules" className="hover:text-white transition-colors flex items-center gap-1">
+            <Link href="/regeln" className="hover:text-white transition-colors flex items-center gap-1">
               <FiBook className="w-5 h-5" />
               <span className="hidden sm:inline">Regeln</span>
             </Link>
@@ -76,7 +76,7 @@ export default function Home() {
                   Jetzt beitreten
                 </Link>
                 <Link 
-                  href="/rules" 
+                  href="/regeln" 
                   className="px-8 py-4 border border-white/20 rounded-lg font-medium hover:border-white/40 transition-all"
                 >
                   Regeln lesen
@@ -309,7 +309,7 @@ export default function Home() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/rules" className="block text-gray-400 hover:text-white text-sm">
+              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
               <Link href="https://fivem.timelesscity.de" className="block text-gray-400 hover:text-white text-sm">

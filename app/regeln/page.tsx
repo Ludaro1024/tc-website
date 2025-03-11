@@ -1259,7 +1259,7 @@ export default function Home() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/rules" className="block text-gray-400 hover:text-white text-sm">
+              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
               <Link href="https://fivem.timelesscity.de" className="block text-gray-400 hover:text-white text-sm">
@@ -1333,7 +1333,7 @@ export default function Home() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/rules" className="block text-gray-400 hover:text-white text-sm">
+              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
               <Link href="/join" className="block text-gray-400 hover:text-white text-sm">
