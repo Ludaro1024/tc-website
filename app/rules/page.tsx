@@ -1103,7 +1103,7 @@ export default function Home() {
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§17.1 Fraktionshopping</h3>
                     <p className="text-gray-300">
-                      Um Fraktionshopping zu vermeiden, gelten folgende Sperrzeiten für den Austritt aus einer Fraktion: (Neutrale oder Good-Fraks=> 2 Tage / illegale Fraktionen=> 3 Tage.
+                      Um Fraktionshopping zu vermeiden, gelten folgende Sperrzeiten für den Austritt aus einer Fraktion: (Neutrale oder Good-Fraks) 2 Tage / illegale Fraktionen=> 3 Tage.
                     </p>
                   </div>
 
