@@ -58,27 +58,27 @@ export default function Home() {
   >
     {/* Header */}
     <div className="p-8 border-b border-white/10">
-      <div className="flex items-center gap-4 mb-6">
-        <FiShield className="w-12 h-12 text-white" />
-        <div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Server-Regelwerk
-          </h1>
-          <p className="text-gray-400 mt-2">Stand: Juli 2024 · Version 1.0</p>
-        </div>
+      <div className="flex items-center gap-1 mb-4">
+      <FiShield className="w-12 h-12 text-white" />
+      <div>
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+        Server-Regelwerk
+        </h1>
+        <p className="text-gray-400 mt-1">Stand: 11 März 2025 · Version 1.0</p>
+      </div>
       </div>
       <p className="text-gray-300">
-        Mit der Nutzung des Servers erklärst du dich mit den folgenden Regeln einverstanden. 
-        Unwissenheit schützt nicht vor Sanktionen. Bei Fragen stehen wir im Discord zur Verfügung.
+      Mit der Nutzung des Servers erklärst du dich mit den folgenden Regeln einverstanden. 
+      Unwissenheit schützt nicht vor Sanktionen. Bei Fragen stehen wir im Discord zur Verfügung.
       </p>
     </div>
-
+    
     <div className="min-h-screen bg-black text-white font-sans antialiased relative">
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/30 pointer-events-none" />
 
       <main className="pt-32 pb-24">
-        <section className="container mx-auto px-4 py-12">
+        <section className="container mx-auto px-1 py-0">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ export default function Home() {
           >
 
 
-            <div className="p-8 space-y-12">
+            <div className="p-8 space-y-10">
               {/* Allgemeine Regeln */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
@@ -1283,7 +1283,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
             <div>© 2024 TimelessCity. Alle Rechte vorbehalten.</div>
             <div className="flex gap-4">
-              <Link href="/impressum" className="hover:text-white">Impressum</Link>
+              {/* <Link href="/impressum" className="hover:text-white">Impressum</Link> */}
             </div>
           </div>
         </div>
@@ -1360,9 +1360,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
             <div>© 2024 TimelessCity. Alle Rechte vorbehalten.</div>
             <div className="flex gap-4">
-              <Link href="/impressum" className="hover:text-white">Impressum</Link>
-              <Link href="/datenschutz" className="hover:text-white">Datenschutz</Link>
-              <Link href="/agb" className="hover:text-white">AGB</Link>
+              {/* <Link href="/impressum" className="hover:text-white">Impressum</Link> */}
             </div>
           </div>
         </div>
