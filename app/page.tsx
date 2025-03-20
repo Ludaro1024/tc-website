@@ -69,14 +69,14 @@ export default function Home() {
 
               <div className="flex gap-4">
                 <Link 
-                  href="/join" 
+                  href="#so-nimmst-du-teil" 
                   className="px-8 py-4 bg-white text-black rounded-lg font-medium hover:bg-gray-100 transition-all flex items-center"
                 >
                   <FiArrowRight className="mr-3" />
                   Jetzt beitreten
                 </Link>
                 <Link 
-                  href="#so-nimmst-du-teil" 
+                  href="/regeln" 
                   className="px-8 py-4 border border-white/20 rounded-lg font-medium hover:border-white/40 transition-all"
                 >
                   Regeln lesen
