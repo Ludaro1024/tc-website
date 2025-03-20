@@ -76,7 +76,7 @@ export default function Home() {
                   Jetzt beitreten
                 </Link>
                 <Link 
-                  href="/regeln" 
+                  href="#so-nimmst-du-teil" 
                   className="px-8 py-4 border border-white/20 rounded-lg font-medium hover:border-white/40 transition-all"
                 >
                   Regeln lesen
@@ -179,7 +179,10 @@ export default function Home() {
               {/* How to Join Section */}
               <section className="container mx-auto px-4 mb-24">
             <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
+              <section id="so-nimmst-du-teil">
             <h2 className="text-4xl font-bold mb-8 text-center">So nimmst du teil</h2>
+                </section>
+              
             
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6 bg-black/20 rounded-xl">
