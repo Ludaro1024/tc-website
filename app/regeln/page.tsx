@@ -207,14 +207,14 @@ export default function Home() {
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.13 Serverrestart</h3>
                     <p className="text-gray-300">
-                      Es dürfen 30 Minuten vor Serverrestart (Sonnenwende) keine größeren Roleplay Situationen, wie Räube angefangen werden.
+                      Es dürfen 30 Minuten vor Serverrestart (Sonnenwende) keine größeren Roleplay Situationen, wie Raube angefangen werden.
                     </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.14 Server Events</h3>
                     <p className="text-gray-300">
-                      Sämtliche Ereignisse, die während eines Server Events stattfinden, gelten automatisch als OOC und dürfen nicht für eine RP-Situation genutzt werden. Bei Events, welche auf Discord angekündigt werden, dürfen keine Überfälle/Räube gestartet werden.
+                      Sämtliche Ereignisse, die während eines Server Events stattfinden, gelten automatisch als OOC und dürfen nicht für eine RP-Situation genutzt werden. Bei Events, welche auf Discord angekündigt werden, dürfen keine Überfälle/Raube gestartet werden.
                     </p>
                   </div>
 
@@ -771,9 +771,9 @@ export default function Home() {
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§9.6 Räube/Überfälle</h3>
+                    <h3 className="text-xl font-semibold mb-3">§9.6 Raube/Überfälle</h3>
                     <p className="text-gray-300">
-                      Bei Räuben/Überfällen steht weiterhin das RP im Vordergrund! Somit sind alle Beteiligten Parteien zu einer Verhandlung verpflichtet.
+                      Bei Rauben/Überfällen steht weiterhin das RP im Vordergrund! Somit sind alle Beteiligten Parteien zu einer Verhandlung verpflichtet.
                     </p>
                   </div>
                 </div>
@@ -869,11 +869,11 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Räube/Überfälle */}
+              {/* Raube/Überfälle */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
                   <span className="bg-white/10 px-3 py-1 rounded-lg">12</span>
-                  Räube/Überfälle
+                  Raube/Überfälle
                 </h2>
 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -892,9 +892,9 @@ export default function Home() {
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§12.3 Räube</h3>
+                    <h3 className="text-xl font-semibold mb-3">§12.3 Raube</h3>
                     <p className="text-gray-300">
-                      Begonnene Räube oder Überfälle müssen beendet werden. Mehrfaches Starten und Abbrechen ohne Grund führt zu einer Sanktion wegen Cop-Baiting.
+                      Begonnene Raube oder Überfälle müssen beendet werden. Mehrfaches Starten und Abbrechen ohne Grund führt zu einer Sanktion wegen Cop-Baiting.
                     </p>
                   </div>
 
