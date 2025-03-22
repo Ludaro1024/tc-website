@@ -128,11 +128,14 @@ export default function Impressum() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
+            <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
               <Link href="/agb" className="block text-gray-400 hover:text-white text-sm">
                 AGB
+              </Link>
+              <Link href="/impressum" className="block text-gray-400 hover:text-white text-sm">
+                Impressum
               </Link>
             </div>
           </div>
