@@ -1321,7 +1321,7 @@ export default function Home() {
                 alt="Logo"
                 width={80}
                 height={80}
-                className="invert"
+
               />
               <div>
                 <h3 className="text-xl font-bold">TimelessCity</h3>
