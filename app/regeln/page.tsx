@@ -98,7 +98,8 @@ export default function Home() {
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.1 FiveM Richtlinien</h3>
                     <p className="text-gray-300">
-                      Vorab gelten die allgemeinen Geschäftsbedingungen von FiveM, welche unter folgendem Link zu finden sind:
+                      Bitte beachte, dass die allgemeinen Geschäftsbedingungen von FiveM gelten, die du unter folgendem Link findest:
+                      (Mit dem Betreten des Servers akzeptierst du sowohl diese als auch die AGBs des Servers unter timelesscity.de/agb zu finden.)
                     </p>
                     <a
                       href="https://runtime.fivem.net/platform-license-agreement-12-sept-2023.pdf"
@@ -109,7 +110,7 @@ export default function Home() {
                       <FiArrowRight className="w-4 h-4" />
                       FiveM AGB anzeigen
                     </a>
-                    Diese und die AGBs des Servers Akzeptierst du mit dem Betreten des Servers.
+                   
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
