@@ -109,6 +109,7 @@ export default function Home() {
                       <FiArrowRight className="w-4 h-4" />
                       FiveM AGB anzeigen
                     </a>
+                    Diese und die AGBs des Servers Akzeptierst du mit dem Betreten des Servers.
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
@@ -1334,11 +1335,14 @@ export default function Home() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
+            <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
-              <Link href="fivem.timelesscity.de" className="block text-gray-400 hover:text-white text-sm">
-                Beitreten
+              <Link href="/agb" className="block text-gray-400 hover:text-white text-sm">
+                AGB
+              </Link>
+              <Link href="/impressum" className="block text-gray-400 hover:text-white text-sm">
+                Impressum
               </Link>
             </div>
           </div>

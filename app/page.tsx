@@ -316,8 +316,11 @@ export default function Home() {
               <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
-              <Link href="https://fivem.timelesscity.de" className="block text-gray-400 hover:text-white text-sm">
-                Beitreten
+              <Link href="/agb" className="block text-gray-400 hover:text-white text-sm">
+                AGB
+              </Link>
+              <Link href="/impressum" className="block text-gray-400 hover:text-white text-sm">
+                Impressum
               </Link>
             </div>
           </div>
